@@ -6,7 +6,7 @@
  */
 'use strict'
 const Koa = require('koa')
-const bodyParser = require('koa-bodyParser')
+const bodyParser = require('koa-bodyparser')
 const app = new Koa()
 const router = require('./router')
 const getAccessToken = require('./controller/accessToken.controller')

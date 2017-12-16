@@ -4,6 +4,7 @@
   "description": "微信公众号koa2版",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "xingyibiao",
