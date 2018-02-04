@@ -19,4 +19,9 @@ router.post('/', msgHandler)
 // 测试access_token
 router.get('/testAccess', testAccess)
 
+// 测试服务畅通
+router.get('/test', (ctx) => {
+  ctx.body = '欢迎来到我的微信，这是测试页面'
+})
+
 module.exports = router
